@@ -1,0 +1,7 @@
+build/
+influxdb2/
+influxdb2-config/
+node_modules/
+data.csv
+.env
+.DS_Store
