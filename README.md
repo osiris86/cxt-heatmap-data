@@ -15,7 +15,7 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 ### Temperaturentwicklung
 
 <p align="center">
-<img src="img/animation.gif" alt="Temperaturentwicklung" width="50%" />
+<img src="img/animation.gif" alt="Temperaturentwicklung" width="100%" />
 </p>
 
 ### Temperaturverlauf aller Sitzplätze
