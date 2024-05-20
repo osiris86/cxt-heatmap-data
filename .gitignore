@@ -4,3 +4,4 @@ influxdb2-config/
 node_modules/
 .env
 .DS_Store
+data.csv
