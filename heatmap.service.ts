@@ -1,17 +1,16 @@
 import { saalplanMap } from './saalplanMap'
 import { Canvas, createCanvas, Image } from 'canvas'
 import { TemperatureMap } from './temperatureMap'
-import { CANVAS_FILE, TARGET_FILE } from './Constants'
+import { CANVAS_FILE } from './Constants'
 import fs, { copyFileSync, createWriteStream, readFileSync, rmSync } from 'fs'
 
 export class HeatmapService {
   async createHeatmap(
     currentTemperatures: Map<string, { value: number }>,
-    label: string
+    label: string,
+    filename: string
   ) {
     const temperaturePoints: { x: number; y: number; value: number }[] = []
-
-    console.log(currentTemperatures)
 
     for (const [key, value] of currentTemperatures) {
       const seatLocation = saalplanMap[key]
@@ -20,8 +19,6 @@ export class HeatmapService {
       const v = value.value
       temperaturePoints.push({ x: x, y: y, value: v })
     }
-
-    console.log(temperaturePoints)
 
     const canvas = createCanvas(1903, 1124)
     const ctx = canvas.getContext('2d')
@@ -46,7 +43,7 @@ export class HeatmapService {
             const stream = combinedCanvas.createPNGStream()
             stream.pipe(out)
             out.on('finish', () => {
-              copyFileSync('./temp.png', TARGET_FILE)
+              copyFileSync('./temp.png', filename)
               rmSync('./temp.png')
             })
           }

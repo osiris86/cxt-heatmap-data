@@ -7,6 +7,8 @@ dotenv.config()
 moment.locale('de')
 
 const drawSingleImage = async (time: Moment) => {
+  console.log(`Drawing image for ${time.format('YYYY-MM-DD HH:mm')}`)
+
   const start = time.clone().subtract(5, 'minutes')
   const end = time.clone()
   const influxService = new InfluxService(
@@ -26,18 +28,19 @@ const drawSingleImage = async (time: Moment) => {
   }
 
   const label = end.format('dddd, HH:mm')
+  const filename = `./images/${end.format('YYYY-MM-DD HH-mm')}.png`
 
-  heatmapService.createHeatmap(temperatureData, label)
+  await heatmapService.createHeatmap(temperatureData, label, filename)
 }
 
 const drawImages = async () => {
-  const start = moment('2024-05-18T20:00:00.000Z')
-  const end = moment('2024-05-18T20:30:00.000Z')
+  const start = moment('2024-05-19T03:40:00.000Z')
+  const end = moment('2024-05-19T08:30:00.000Z')
 
   let current = start.clone()
 
   while (current.isBefore(end)) {
-    drawSingleImage(current)
+    await drawSingleImage(current)
     current.add(5, 'minutes')
   }
 }
