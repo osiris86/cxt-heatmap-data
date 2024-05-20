@@ -48,3 +48,21 @@ Fun Fact: Die Körpertemperatur eines gesunden Menschen liegt zwischen 36 und 37
 - Die anfallende Datenmenge ist ziemlich klein. Die Sensoren können ihre Temperatur häufiger übermitteln.
 - Bei der Erstellung der Heatmap sollte die Skala etwas grunalarer sein.
 - Sensoren beschriften, damit Teilnehmer wissen wo sie zurückzugeben sind.
+
+## Danksagung
+
+Ein Dank geht raus an alle, die an ihrem Platz einen Sensor betrieben haben:
+
+- Bowseer
+- Brilliantix
+- {UFC}Danomat
+- Darkstar
+- Der_Chris
+- DRuNKeN_MaSTeR
+- Kaczoland
+- Kenichisonoda
+- Pippolo
+- [DKF]Prasselback
+- Puggingtons
+
+Besonderer Dank an **deto** vom Orga-Team, der mich bei der Umsetzung unterstützt hat und ebenfalls einen Sensor im Orga-Park betrieben hat.
