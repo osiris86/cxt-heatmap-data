@@ -66,3 +66,5 @@ Ein Dank geht raus an alle, die an ihrem Platz einen Sensor betrieben haben:
 - Puggingtons
 
 Besonderer Dank an **deto** vom Orga-Team, der mich bei der Umsetzung unterstützt hat und ebenfalls einen Sensor im Orga-Park betrieben hat.
+
+Ein weiterer besonderer Danke an **veggie1996**, der die Gehäuse für die Sensoren gedruckt hat.
