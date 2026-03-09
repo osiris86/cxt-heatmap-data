@@ -1,6 +1,8 @@
 build/
 influxdb2/
 influxdb2-config/
+influxdata/
+influxconfig/
 node_modules/
 .env
 .DS_Store

@@ -30,18 +30,23 @@ const drawSingleImage = async (time: Moment) => {
   const label = end.format('dddd, HH:mm')
   const filename = `./images/${end.format('YYYY-MM-DD HH-mm')}.png`
 
-  await heatmapService.createHeatmap(temperatureData, label, filename)
+  await heatmapService.createHeatmap(
+    temperatureData,
+    label,
+    filename,
+    time.toDate()
+  )
 }
 
 const drawImages = async () => {
-  const start = moment('2024-05-19T03:40:00.000Z')
-  const end = moment('2024-05-19T08:30:00.000Z')
+  const start = moment('2026-03-06T18:00:00.000Z')
+  const end = moment('2026-03-08T10:04:00.000Z')
 
   let current = start.clone()
 
   while (current.isBefore(end)) {
     await drawSingleImage(current)
-    current.add(5, 'minutes')
+    current.add(2, 'minutes')
   }
 }
 
