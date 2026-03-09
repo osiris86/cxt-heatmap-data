@@ -28,9 +28,9 @@ In Zukunft soll es für die Auswertung der einzelnen LAN-Parties eigene Branches
 
 ## Daten auswerten
 
-Um die Daten zu laden sollten die Ordner `influxdata` und `influxconfig` vom Server geladen werden. Eine lokale Instanz der InfluxDB sollte gestartet werden: `docker run --rm -p 8086:8086 -v ./influxdata:/var/lib/influxdb2 -v ./influxconfig:/etc/influxdb2 --env-file ./cxt-heatmap-data/.env influxdb:2.7.4`. Anschließend kann mit `npm run export` eine CSV-Datei mit allen gemessenen Temperaturen erstellt werden. Ein `npm run drawImages` erzeugt png-Dateien für den in `drawImages.ts` definierten Zeitraum. Derzeit pro 2 Minuten ein Bild.
+Um die Daten zu laden sollten die Ordner `influxdata` und `influxconfig` vom Server geladen werden. Eine lokale Instanz der InfluxDB sollte gestartet werden. Dafür kann bspw. die vorhandene `docker-compose.yml` verwendet werden. Anschließend kann mit `npm run export` eine CSV-Datei mit allen gemessenen Temperaturen erstellt werden. Ein `npm run drawImages` erzeugt png-Dateien für den in `drawImages.ts` definierten Zeitraum. Derzeit pro 2 Minuten ein Bild.
 
-Um ein paar Graphen aus den Daten zu erstellen, hilft Grafana. Hierzu am einfachsten einen lokalen Container von Grafana starten: `docker run --rm -p 3000:3000 --name=grafana grafana/grafana-enterprise`. Zugangsdaten: admin, admin. Anschließend die Influx-Connection hinzufügen und die Grafen wie gewohnt erstellen.
+Um ein paar Graphen aus den Daten zu erstellen, hilft Grafana. Dieser Container ist in der `docker-compose.yml` inkludiert. Zugangsdaten: admin, admin. Anschließend die Influx-Connection hinzufügen und die Grafen wie gewohnt erstellen.
 Hier ein paar Beispielabfragen ...
 
 ### Temperaturverlauf aller Sitzplätze
