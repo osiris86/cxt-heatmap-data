@@ -32,6 +32,12 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 <img src="img/average.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
 </p>
 
+### Temperaturverlauf aller Sitzplätze und der Außentemperatur
+
+<p align="center">
+<img src="img/allValuesOutside.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
+</p>
+
 ### Höchste gemessene Temperatur
 
 36,56°C, gemessen am Samstag um 19:10:31 Uhr auf Platz C14. Es handelt sich um einen krassen Ausreisser. Die Messung davor um 19:05 Uhr lag bei 30,25°C, die um 19:20 Uhr bei 30,88°C.
