@@ -40,39 +40,57 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 
 ### Höchste gemessene Temperatur
 
-36,56°C, gemessen am Samstag um 19:10:31 Uhr auf Platz C14. Es handelt sich um einen krassen Ausreisser. Die Messung davor um 19:05 Uhr lag bei 30,25°C, die um 19:20 Uhr bei 30,88°C.
-Fun Fact: Die Körpertemperatur eines gesunden Menschen liegt zwischen 36 und 37°C. Verwendeter Temperatursensor wird fachgerecht entsorgt.
+32,5°C, gemessen am Samstag um 14:39:03 Uhr auf Platz Q1.
 
 ### Niedrigste gemessene Temperatur
 
-18,81°C, gemessen am Sonntag um 08:22:34 Uhr auf Platz B16.
+-127°C, gemessen am Samstag um 23:14:55 Uhr auf Platz Q1. Da mir nichts von Toten auf der Veranstaltung bekannt ist und ich mir recht sicher bin, dass ich das mitbekommen hätte, würde ich diese Messung als Messfehler klassifizieren. Keine Ahnung was hier passiert ist ...
 
-## Lessons Learned
+Sieht man von dieser Messung ab, war die niedrigste gemessene Temperatur 11,44°C am Sonntag um 08:40:25 auf Platz B11.
 
-- Die Nummerierung der Sitzplätze beginnt in Richtung der Umkleidekabinen und endet an der Bühne, nicht umgekehrt.
-- Es sollte mehr Sensoren, gleichmäßiger verteilt werden. Evtl. vorher über die optimale Verteilung Gedanken machen und konkrete Kandidaten an der LAN ansprechen.
-- Mehr Gedanken über die Platzierung der Sensoren machen, um vergleichbarere Messwerte an den unterschiedlichen Plätzen zu erhalten.
-- Eine Temperaturskala einbauen.
-- Die anfallende Datenmenge ist ziemlich klein. Die Sensoren können ihre Temperatur häufiger übermitteln.
-- Bei der Erstellung der Heatmap sollte die Skala etwas grunalarer sein.
-- Sensoren beschriften, damit Teilnehmer wissen wo sie zurückzugeben sind.
+## Interpretation
+
+Am Eingang ist es nachts/morgens ganz schön kalt. In der Mitte der Halle ist es tagsüber ganz schön warm. Schockierende Erkenntnisse ...
+
+## Trivia / Lessons Learned
+
+Hier ein paar Sachen, die während der LAN so passiert sind und die ich für erwähnenswert halte:
+
+Nachdem ich das Projekt auf der CXT 27 nicht zum Laufen bekommen habe, weil mir verschiedene Secrets gefehlt hatten und ich auch nicht darauf zugreifen konnte, habe ich dieses Jahr meinen eigenen Server zu Hause vorkonfiguriert und mitgebracht. Das hat für ein wesentlich reibungsloseren Ablauf gesorgt.
+
+Zu Beginn der LAN stellte ich fest, dass sich die Sensoren nicht mit dem WLAN verbinden. Und das obwohl ich zu Hause sogar noch das CXT WLAN simuliert habe, um genau das sicherzustellen. Nachdem ich eine Weile mit debugging verbracht habe, habe ich mich an die Orgas gewandt. Stellte sich raus, dass das CXT WLAN nur auf 5GHz funkt. Meine Sensoren können aber nur 2,4GHz. 3 Minuten später hatte ich meine eigene (vermutlich versteckte) SSID und die Sensoren konnten sich damit verbinden. Ich habe also kurz alle Sensoren neu geflasht und konnte dann mit der Verteilung beginnen.
+
+Manche Gäste wirkten etwas skeptisch als irgendein dahergelaufener LAN Gast sie gefragt hat, ob sie bereit wären einen Sensor per USB an ihrem Rechner zu betreiben. Vermutlich würde es die Skepsis etwas reduzieren, wenn ich mehr Netzteile zur Verfügung hätte, um die Sensoren zu betreiben. Hier gilt es Augen und Ohren offen zu halten.
+
+Zum Teil wirkten die gemessenen Temperaturen doch auch stark von der PC-Abluft beeinflusst. Man beobachte bspw. mal die Temperaturentwicklung an R11 insbesondere in der ersten Nacht. Hier sollte ggf. auf eine (noch) bessere Platzierung der Sensoren geachtet werden.
+
+Am Samstag zwischen 15:38 Uhr und 16:52 Uhr hat sich mein Server verabschiedet. Ich habe keine Ahnung was hier schief lief, aber ggf. sollte ich mir über ein Monitoring Gedanken machen, das mich informiert, wenn der Server nicht mehr da ist.
+
+Vor dem Speichern der von den Sensoren gemeldeten Daten, sollte ggf. eine Plausibilitätsprüfung stattfinden, so dass so krasse Ausreisser wie oben beschrieben gar nicht erst in der Datenbank landen.
+
+Auch dieses Jahr hat es ein Sensor nicht zu mir zurück geschafft. Diesmal wurde er jedoch glücklicherweise von den Orgas beim Abbau gefunden und wird bis nächstes Jahr verwahrt. Einige wenige Sensoren wurden bei der Cateringkasse abgegeben. Hier sollte ich mir ein paar Gedanken machen wie ich die Gäste besser auf meinen Sitzplatz aufmerksam machen kann.
 
 ## Danksagung
 
 Ein Dank geht raus an alle, die an ihrem Platz einen Sensor betrieben haben:
 
+- {UFC}Navigator
+- [d3s]Lostinspace
+- 2DieFor
+- Bloodydead
 - Bowseer
-- Brilliantix
-- {UFC}Danomat
+- Dark Lam0r
 - Darkstar
-- Der_Chris
-- DRuNKeN_MaSTeR
-- Kaczoland
-- Kenichisonoda
-- Pippolo
-- [DKF]Prasselback
-- Puggingtons
+- deto
+- Fresch90
+- Gammelstulle
+- Gorn
+- JaneDase
+- NoFlo
+- Peng23
+- PinGu
+- quasari
+- Tai Kahar
+- unknwn
 
-Besonderer Dank an **deto** vom Orga-Team, der mich bei der Umsetzung unterstützt hat und ebenfalls einen Sensor im Orga-Park betrieben hat.
-
-Ein weiterer besonderer Danke an **veggie1996**, der die Gehäuse für die Sensoren gedruckt hat.
+Besonderer Dank an **deto** vom Orga-Team, der mich bei der Umsetzung unterstützt hat und spontan mal ein neues WLAN aufgesetzt hat, um die Sensoren betreiben zu können.
