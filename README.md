@@ -1,8 +1,12 @@
-# Convention-X-Treme 26: Jäger des verlorenen Internets
+# Convention-X-Treme 28: Die Rückkehr der LAN Ritter
 
-Die [Convention-X-Treme](https://convention-x-treme) fand in der 26. Ausgabe in der Altenbürghalle in Karlsdorf Neuthard statt. Die LAN Party begann am 17.05.2024 um 18:00 Uhr und endete am 19.05.2024 um 12:00 Uhr. Leider konnte die Datenerfassung erst ab Samstagnachmittag beginnen.
+Die [Convention-X-Treme](https://convention-x-treme) fand in der 28. Ausgabe in der Altenbürghalle in Karlsdorf Neuthard statt. Die LAN Party begann am 06.03.2026 um 18:00 Uhr und endete am 08.03.2026 um 12:00 Uhr.
 
-Insgesamt wurden 15 Sensoren an Gäste verteilt von denen 13 Sensoren in Betrieb waren und Temperaturdaten übermittelt haben.
+Nachdem beim letzten Einsatz ein Sensor nicht den Weg zu mir zurück gefunden hat, konnten 19 Sensoren an Gäste verteilt werden. Insgesamt 18 Sensoren wurden auch angeschlossen und haben regelmäßig Daten geliefert.
+
+Die Sensoren waren so konfiguriert, dass sie alle 2 Minuten die aktuelle Temperatur gesendet haben. Außerdem wurde eine Netatmo Wetterstation nicht weit entfernt von der Halle per API angezapft, um auch die Außentemperatur zu erfassen.
+
+Die meisten Daten hat der Sensor an Platz F10 geliefert (1.121 Datenpunkte), die wenigsten Daten kamen vom Platz N11 (120 Datenpunkte). Im Durchschnitt hat jeder Sensor 940 Temperaturen übermittelt; der Median lag bei 1.055.
 
 Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 
@@ -14,9 +18,7 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 
 ### Temperaturentwicklung
 
-<p align="center">
-<img src="img/animation.gif" alt="Temperaturentwicklung" width="100%" />
-</p>
+// Video to be added here
 
 ### Temperaturverlauf aller Sitzplätze
 
