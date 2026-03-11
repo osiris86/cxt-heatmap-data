@@ -18,7 +18,11 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 
 ### Temperaturentwicklung
 
-https://osiris86.github.io/cxt-heatmap-data/assets/cxt28/temperatureDevelopment.mp4
+<p align="center">
+<video width="100%">
+  <source src="assets/cxt28/temperatureDevelopment.mp4" type="video/mp4" />
+</video>
+</p>
 
 ### Temperaturverlauf aller Sitzplätze
 
