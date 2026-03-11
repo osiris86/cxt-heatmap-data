@@ -1,6 +1,6 @@
 # Convention-X-Treme 28: Die Rückkehr der LAN Ritter
 
-Die [Convention-X-Treme](https://convention-x-treme) fand in der 28. Ausgabe in der Altenbürghalle in Karlsdorf Neuthard statt. Die LAN Party begann am 06.03.2026 um 18:00 Uhr und endete am 08.03.2026 um 12:00 Uhr.
+Die [Convention-X-Treme](https://convention-x-treme.de) fand in der 28. Ausgabe in der Altenbürghalle in Karlsdorf Neuthard statt. Die LAN Party begann am 06.03.2026 um 18:00 Uhr und endete am 08.03.2026 um 12:00 Uhr.
 
 Nachdem beim letzten Einsatz ein Sensor nicht den Weg zu mir zurück gefunden hat, konnten 19 Sensoren an Gäste verteilt werden. Insgesamt 18 Sensoren wurden auch angeschlossen und haben regelmäßig Daten geliefert.
 
@@ -10,15 +10,15 @@ Die meisten Daten hat der Sensor an Platz F10 geliefert (1.121 Datenpunkte), die
 
 Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 
-- [CSV](https://github.com/osiris86/cxt-heatmap-data/blob/CXT26/data.csv)
-- [InfluxDB](https://github.com/osiris86/cxt-heatmap-data/blob/CXT26/originalDb.zip)
-- [PNGs](https://github.com/osiris86/cxt-heatmap-data/tree/CXT26/temperatureMaps)
+- [CSV](https://github.com/osiris86/cxt-heatmap-data/blob/CXT28/data.csv)
+- [InfluxDB](https://github.com/osiris86/cxt-heatmap-data/blob/CXT28/originalDb.zip)
+- [PNGs](https://github.com/osiris86/cxt-heatmap-data/tree/CXT28/temperatureMaps)
 
 ## Einige Auswertungen
 
 ### Temperaturentwicklung
 
-// Video to be added here
+https://osiris86.github.io/cxt-heatmap-data/assets/temperatureDevelopment.mp4
 
 ### Temperaturverlauf aller Sitzplätze
 
