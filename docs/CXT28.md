@@ -18,24 +18,24 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 
 ### Temperaturentwicklung
 
-https://osiris86.github.io/cxt-heatmap-data/assets/temperatureDevelopment.mp4
+https://osiris86.github.io/cxt-heatmap-data/assets/cxt28/temperatureDevelopment.mp4
 
 ### Temperaturverlauf aller Sitzplätze
 
 <p align="center">
-<img src="img/allValues.png" alt="Temperaturentwicklung alle Sitzplätze" width="100%" />
+<img src="assets/cxt28/allValues.png" alt="Temperaturentwicklung alle Sitzplätze" width="100%" />
 </p>
 
 ### Temperaturverlauf der Durchschnittstemperatur aller Plätze
 
 <p align="center">
-<img src="img/average.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
+<img src="assets/cxt28/average.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
 </p>
 
 ### Temperaturverlauf aller Sitzplätze und der Außentemperatur
 
 <p align="center">
-<img src="img/allValuesOutside.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
+<img src="assets/cxt28/allValuesOutside.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
 </p>
 
 ### Höchste gemessene Temperatur
