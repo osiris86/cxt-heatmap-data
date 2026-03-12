@@ -23,7 +23,7 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 ### Temperaturentwicklung
 
 <p align="center">
-<video width="100%">
+<video width="100%" controls>
   <source src="/assets/cxt28/temperatureDevelopment.mp4" type="video/mp4" />
 </video>
 </p>
