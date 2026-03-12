@@ -19,19 +19,19 @@ Die Daten stehen in unterschiedlichen Formaten zur Verfügung:
 ### Temperaturentwicklung
 
 <p align="center">
-<img src="/assets/cxt26/animation.gif" alt="Temperaturentwicklung" width="100%" />
+<img src="{{ site.baseurl }}/assets/cxt26/animation.gif" alt="Temperaturentwicklung" width="100%" />
 </p>
 
 ### Temperaturverlauf aller Sitzplätze
 
 <p align="center">
-<img src="/assets/cxt26/allValues.png" alt="Temperaturentwicklung alle Sitzplätze" width="100%" />
+<img src="{{ site.baseurl }}/assets/cxt26/allValues.png" alt="Temperaturentwicklung alle Sitzplätze" width="100%" />
 </p>
 
 ### Temperaturverlauf der Durchschnittstemperatur aller Plätze
 
 <p align="center">
-<img src="/assets/cxt26/average.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
+<img src="{{ site.baseurl }}/assets/cxt26/average.png" alt="Durchschnittliche Temperaturentwicklung aller Sitzplätze" width="100%" />
 </p>
 
 ### Höchste gemessene Temperatur

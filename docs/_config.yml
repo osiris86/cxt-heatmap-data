@@ -21,7 +21,7 @@
 title: CXT Heatmap
 email: your-email@example.com
 description: CXT Heatmap
-baseurl: 'cxt-heatmap-data' # the subpath of your site, e.g. /blog
+baseurl: '/cxt-heatmap-data' # the subpath of your site, e.g. /blog
 url: 'osiris86.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
